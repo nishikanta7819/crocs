@@ -1,0 +1,22 @@
+.about-crocs-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.about-crocs-products-content {
+  width: 50%;
+}
+.about-crocs-products-content p {
+  color: hsl(0, 0%, 30%);
+  padding: 20px;
+}
+
+.about-crocs-products-content-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-crocs-products-content-category img {
+  height: 20px;
+}

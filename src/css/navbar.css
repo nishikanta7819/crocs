@@ -1,0 +1,48 @@
+.navbar-top {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar-top .account {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+.navbar-bottom {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0px 10px 0px 10px;
+}
+.crocs-logo img {
+  height: 58px;
+}
+.crocs-category li {
+  display: flex;
+  gap: 50px;
+}
+.crocs-category ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.crocs-btns {
+  display: flex;
+  gap: 30px;
+}
+.crocs-btns img {
+  height: 25px;
+}
