@@ -46,3 +46,16 @@
 .crocs-btns img {
   height: 25px;
 }
+@media (max-width: 480px) {
+  .crocs-category {
+    display: none;
+  }
+  .offer,
+  .account p {
+    font-size: 10px;
+  }
+  .swiper-slide{
+    margin-top: -90px;
+    margin-bottom: -40px;
+  }
+}

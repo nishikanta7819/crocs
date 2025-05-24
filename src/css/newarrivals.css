@@ -36,3 +36,17 @@
 .product-image {
   width: 100%;
 }
+@media(max-width:480px){
+  .new-arrivals-title {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .swiper-slide{
+    min-height: 250px;
+  }
+  .new-arrivals-cards {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}

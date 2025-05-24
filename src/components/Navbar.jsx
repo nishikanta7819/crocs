@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="account">
           <p>my account</p>
-          <img src="" alt="" />
+          {/* <img src="" alt="" /> */}
         </div>
       </div>
       <div className="navbar-bottom">
