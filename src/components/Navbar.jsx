@@ -3,8 +3,10 @@ import "../css/navbar.css";
 import search from "../assets/search-interface-symbol.png";
 import wishlist from "../assets/heart.png";
 import cart from "../assets/trolley.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className="crocs-navbar">
       <div className="navbar-top">
@@ -18,7 +20,13 @@ const Navbar = () => {
       </div>
       <div className="navbar-bottom">
         <div className="crocs-logo">
-          <img src="https://www.crocs.in/logo-crocs-kMY.svg" alt="" />
+          <img
+            src="https://www.crocs.in/logo-crocs-kMY.svg"
+            alt=""
+            onClick={() => {
+              navigate("/");
+            }}
+          />
         </div>
         <div className="crocs-category">
           <ul>

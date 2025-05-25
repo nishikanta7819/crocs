@@ -18,6 +18,7 @@
   padding: 0px 10px 0px 10px;
 }
 .shopbystyle-cards img {
+  cursor: pointer;
   flex: 1 1 calc(33.333% - 10px); /* Ensures 3 images per row with gap accounted for */
   max-width: calc(33.333% - 10px); /* Ensures proper width calculation */
 }

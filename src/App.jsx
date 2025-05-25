@@ -6,19 +6,33 @@ import NewArrivals from "./components/NewArrivals";
 import ShopbyStyle from "./components/ShopbyStyle";
 import AboutCrocsProducts from "./components/AboutCrocsProducts";
 import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Clogs from "./components/Clogs";
 
-const App = () => {
+function Home() {
   return (
-    <div className="crocs">
-      <Navbar />
+    <>
       <Crocsbanner />
       <ShopbyStyle />
       <NewArrivals />
       <Crocsbanner2 />
       <AboutCrocsProducts />
-      <Footer />
-    </div>
+    </>
   );
-};
+}
+function App() {
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/clogs" element={<Clogs />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
+  );
+}
 
 export default App;
